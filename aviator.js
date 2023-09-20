@@ -1,4 +1,4 @@
-function aviator(input){
+function aviators(input){
 let companyName = input[0];
 let ticketAdult = Number(input[1]);
 let ticketKids = Number(input[2]);
@@ -22,4 +22,4 @@ console.log(`The profit of your agency from ${companyName} tickets is ${totalPro
 }
 
 
-aviator(["WizzAir", "15" , "5" ,"120" ,"40"])
+aviators(["WizzAir", "15" , "5" ,"120" ,"40"])
